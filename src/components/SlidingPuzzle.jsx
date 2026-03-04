@@ -107,7 +107,7 @@ const SlidingPuzzle = () => {
                 setIsActive(false);
 
                 // 환호성 소리 재생
-                const audio = new Audio('./success.mp3');
+                const audio = new Audio(`${import.meta.env.BASE_URL}success.mp3`);
                 audio.volume = 0.5;
                 audio.play().catch(e => console.log('Audio play failed:', e));
 
