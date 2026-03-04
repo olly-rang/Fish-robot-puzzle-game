@@ -151,7 +151,7 @@ const SlidingPuzzle = () => {
                 <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
                     <div>
                         <h1 className="text-5xl font-black bg-clip-text text-transparent bg-gradient-to-r from-premium-400 to-premium-600 mb-2">
-                            CODARI PUZZLE
+                            FISH ROBOT PUZZLE
                         </h1>
                         <p className="text-slate-400 flex items-center gap-2">
                             <Settings className="w-4 h-4" /> Sliding Mechanism • Interactive Robot AI
